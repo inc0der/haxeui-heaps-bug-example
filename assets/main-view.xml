@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vbox>
+  <vbox>
+    <listview id="lv1" width="200" height="100" selectedIndex="0">
+      <data>
+        <item text="Haxe" icon="icons/logo-haxe.png" />
+        <item text="Java" icon="icons/logo-java.png" />
+        <item text="Javascript" icon="icons/logo-javascript.png" />
+        <item text="C++" icon="icons/logo-cpp.png" />
+        <item text="PHP" icon="icons/logo-php.png" />
+        <item text="C#" icon="icons/logo-cs.png" />
+        <item text="F#" icon="icons/logo-fs.png" />
+        <item text="OCaml" icon="icons/logo-ocaml.png" />
+        <item text="Assembler" icon="icons/logo-asm.png" />
+      </data>
+    </listview>
+    <button text="Add 100 items" id="addItems1" width="100%" />
+  </vbox>
+  <!-- The list below will not render due to using 100% for height -->
+  <listview id="lv1" width="200" height="100%" selectedIndex="0">
+    <data>
+      <item text="Haxe" icon="icons/logo-haxe.png" />
+      <item text="Java" icon="icons/logo-java.png" />
+      <item text="Javascript" icon="icons/logo-javascript.png" />
+      <item text="C++" icon="icons/logo-cpp.png" />
+      <item text="PHP" icon="icons/logo-php.png" />
+      <item text="C#" icon="icons/logo-cs.png" />
+      <item text="F#" icon="icons/logo-fs.png" />
+      <item text="OCaml" icon="icons/logo-ocaml.png" />
+      <item text="Assembler" icon="icons/logo-asm.png" />
+    </data>
+  </listview>
+  <button text="Add 100 items" id="addItems1" width="100%" />
+</vbox>
